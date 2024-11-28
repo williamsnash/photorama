@@ -1,6 +1,11 @@
 p h o t o r a m a 
 ====================
 
+
+# TODO
+- [ ] Finish CMS
+  - [ ] Test Gallery Creation
+
 Original Repo: ![photorama](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/photorama_thumb.gif)
 
 ----------
