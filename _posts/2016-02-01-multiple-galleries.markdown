@@ -17,17 +17,7 @@ gallery1:
     image-copyright: © photorama
   - image_path: /img/galleries/g01/bg3.jpg
     image-caption: IMAGE TITLE
-    image-copyright: © photorama 
-gallery2: 
-  - image_path: /img/galleries/g02/bg1.jpg
-    image-caption: IMAGE TITLE
     image-copyright: © photorama
-  - image_path: /img/galleries/g02/bg2.jpg
-    image-caption: IMAGE TITLE
-    image-copyright: © photorama
-  - image_path: /img/galleries/g02/bg3.jpg
-    image-caption: IMAGE TITLE
-    image-copyright: © photorama 
 ---
 
 
