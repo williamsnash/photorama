@@ -1,7 +1,7 @@
 p h o t o r a m a 
 ====================
 
-![photorama](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/photorama_thumb.gif)
+Original Repo: ![photorama](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/photorama_thumb.gif)
 
 ----------
 
@@ -16,6 +16,58 @@ Created for gh-pages (project page).
 This template was crafted having in mind the photobloggers and the artists.
 
 It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll "Clean Blog") as its basis.
+
+----------
+# How to:
+
+## New Post/Journal Entry
+1. Create new markdown file in `_posts` directory.
+   1. Name the file with the date and title of the post, e.g. `2016-02-01-multiple-galleries.markdown`.
+2. Add Metadata
+   - Use the following template:
+   - image->feature: "filename.jpg" (this is the main image of the post) 
+    ```m
+    ---
+    layout: "post"
+    title: "BLOG IMAGE PERFORMANCE IS NECESSARY"
+    subtitle: "Image format and what Is the Ideal File Size for an Image?"
+    active: "journal"
+    image:
+      feature: "pc008.jpg"
+    date: "2016-02-01"
+    header-img: "img/postcover/pc008.jpg"
+    comments: "true"
+    ---
+    ```
+3. Add Content (HTML or Markdown)
+   - Add references other galleries with `{% include subgallery.html id="gallery1" %}`
+   - (more to come)
+
+### Gallery
+1. Create a new folder in the `/gallery` directory.
+2. Create new html file in the new folder.
+3. Add the metadata
+   - Use the following template:
+   ```m
+    ---
+    layout: page
+    title: "album"
+    description: "masonry"
+    active: gallery
+    header-img: "img/gallery-bg.jpg"
+    album-title: "my 1st album"
+    images:
+    - image_path: /img/galleries/g01/bg1.jpg
+      caption: IMAGE TITLE
+      copyright: © photorama
+    - image_path: /img/galleries/g01/bg2.jpg
+      caption: IMAGE TITLE
+      copyright: © photorama
+    - image_path: /img/galleries/g01/bg3.jpg
+      caption: IMAGE TITLE
+      copyright: © photorama
+    ---
+   ``` 
 
 ----------
 ## Change Log
